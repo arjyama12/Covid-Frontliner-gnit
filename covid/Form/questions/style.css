@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../covid\ back.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+    padding: 40px;
+}
+.profile{
+    width: 85%;
+    height: 90%;
+    margin: auto;
+    background-color: #000;
+    align-items: center;
+    box-shadow: 1px 4px rgba(0,0,0,1);
+    border-radius: 10px;
+}
+label{
+    color: black;
+    font-family: sans-serif;
+    font-style: solid;
+}
+.button{
+    width: 200px;
+    height: 100px;
+}
+form{
+    font-size: large;
+    margin-left:50px ;
+    margin-top: 50px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.radio input{
+    margin-left: 5px;
+}
+form input label{
+    margin-top: 10px;
+}
+form .button{
+    margin-left: 122px;
+    margin-top: 50px;
+}
+}
+form .button button{
+    height: 50px;
+    width: 70px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 4px solid rgba(0,0,0,0.3);
+
+}

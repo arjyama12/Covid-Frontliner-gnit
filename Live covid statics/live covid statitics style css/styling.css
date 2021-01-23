@@ -1,0 +1,64 @@
+*
+{ 
+    margin: 0;
+    padding: 0;
+} 
+body
+{ 
+    background-image: url(../covid-19-coronavirus-outbreak-design-with-falling-virus-cell-typography-letter-light-background-vector-2019-ncov-corona-virus-illustration-dangerous-sars-epidemic-theme-banner_1314-2724.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+.wrapper{
+    width: 860px;
+    margin: 0 auto;
+}
+.wrapper ul{
+     list-style: none;
+    margin: 2%; 
+}
+.wrapper ul li{
+    background: rgb(15, 111, 201);
+    width: 85px;
+    border: 10 px solid rgb(0, 0, 0) ;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.wrapper ul li:hover {
+    background-color: skyblue;
+}
+.wrapper ul ul{
+    display:none;
+}
+.wrapper ul li:hover  ul{
+    display: block;
+}
+.wrapper ul ul {
+    margin-right: 100px;
+    top: 0;
+    position: absolute;
+}
+.title{
+    position: absolute;
+    top: 5%;
+    left: 15%;
+}
+.title h1{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+.optionstate
+{
+    width: 150px;
+    height: 40px;
+}

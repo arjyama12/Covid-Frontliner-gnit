@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century gothic;
+}
+body{
+    background-image: url("covid.jpeg");
+    background-size: cover;
+}
+header{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin: 50px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: solid;
+    color:#fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a .active{
+    text-decoration: underline;
+}
+ul li a:hover{
+    background-color: #fff;
+    color:#000 ;
+}
+ul li.active a{
+    background-color:#fff;
+    color: #000;
+}
+.logo img{
+    float: left;
+    max-width: 125px;
+    height: auto;
+    padding: 5px 20px;
+}
+.main{
+    width: 100%;
+    margin: auto;
+}
+.title{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    text-align: center;
+    color:yellow;
+    font-size: 30px;
+    font-style: italic;
+    text-shadow: 1px 4px rgba(0, 0, 0, 0.6);
+}
+table{
+    width: 420px;
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    table-layout: fixed;
+    text-align: center;
+    background: white;
+    opacity: 0.6;
+    color: black;
+    margin-top: 125px;
+    font-family: arial;
+
+}
+table, th, td{
+    border:3px solid black;
+    border-collapse: collapse;
+}
